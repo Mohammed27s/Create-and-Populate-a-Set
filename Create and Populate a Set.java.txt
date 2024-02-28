@@ -1,0 +1,29 @@
+
+//Create and Populate a Set
+
+import java.net.Inet4Address;
+import java.util.HashSet;
+import java.util.Set;
+
+public class populateSet {
+
+    public static void main(String[] args ){
+
+
+        Set<Integer> createSet = new HashSet<>();
+
+         createSet.add(1);
+         createSet.add(2);
+         createSet.add(3);
+         createSet.add(4);
+         createSet.add(5);
+
+
+
+         System.out.println("All elements in the sets : "+createSet);
+
+
+
+    }
+
+}
